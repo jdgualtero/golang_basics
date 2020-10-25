@@ -3,6 +3,7 @@ package main
 import "fmt"
 import "./variables"
 import "./arrays"
+import "./cases"
 
 func main()  {
 
@@ -10,4 +11,5 @@ func main()  {
 	fmt.Println()
 	variables.ShowVariables()
 	arrays.ExampleArrays()
+	cases.SwitchExample()
 }
