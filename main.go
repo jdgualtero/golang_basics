@@ -4,6 +4,7 @@ import "fmt"
 import "./variables"
 import "./arrays"
 import "./cases"
+import "./forpakage"
 
 func main()  {
 
@@ -12,4 +13,5 @@ func main()  {
 	variables.ShowVariables()
 	arrays.ExampleArrays()
 	cases.SwitchExample()
+	forpakage.ForExample()
 }
