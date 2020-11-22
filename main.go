@@ -5,6 +5,7 @@ import "./variables"
 import "./arrays"
 import "./cases"
 import "./forpakage"
+import "./map_package"
 
 func main()  {
 
@@ -14,4 +15,6 @@ func main()  {
 	arrays.ExampleArrays()
 	cases.SwitchExample()
 	forpakage.ForExample()
+	map_package.BasicExamples()
+
 }
